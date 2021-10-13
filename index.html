@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/styles/style.css">
+        <script><!--utk membuat  tampilan navigasi jadi responsif-->
+         /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+         function myFunction() {
+             document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+         }    
+       </script>
+        <title>UTM</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+               <ul class="topnav">
+                  <li><a href="#beranda">Beranda</a></li>
+                  <li><a href="#visi & misi">Visi & Misi</a></li>
+                  <li><a href="#fasilitas">Fasilitas</a></li>
+                  <li><a href="#tentang">Tentang</a></li>
+                  <li class="icon"> <a href="javascript:void(0);" onclick="myFunction()">☰</a></li><!--utk membuat  tampilan navigasi jadi responsif-->
+               </ul>
+            </nav>
+            <div class="jumbotron">   
+                 <img src="assets/image/kampus.jpg" class="featured-image" alt=""><!--class featured-image
+                    ditambahkan utk memperbesar ukuran gambar yg dibantu fgn CSS -->
+            </div>
+         </header>
+         <main>
+             <div id="content">
+                 <article id="beranda">
+                 </article>
+                 <article id="visi & misi" class="card"><!--id fungsinya untuk menerima panggilan jika diklik bagian menu/nav-->
+                   <h2>Visi & Misi</h2> 
+                    <h3>Visi </h3>
+                    <p>Unggul dan berdaya saing secara Nasional di bidang informatika yang menghasilkan lulusan yang kompeten, 
+                        memiliki semangat pengabdian dan berahlak mulia pada tahun 2031.</p>         
+                     <h3>Misi </h3>
+                     <ol>
+                        <li>Menyelenggarakan proses pendidikan, penelitian, dan pengabdian pada masyarakat berbasis Teknologi Informasi dan Komunikasi (TIK).</li>
+                        <li>Mengembangkan tenaga kompeten yang berdaya saing sesuai dengan kebutuhan Stakeholder serta mampu mengembangkan dan menyebarluaskan 
+                           ilmu pengetahuan dan teknologi yang bermanfaat bagi kehidupan masyarakat.</li>
+                        <li>Membangun kerjasama dengan Stakeholder baik di tingkat Nasional maupun Internasional.</li>
+                        <li>Mengembangkan lulusan yang mampu menerapkan etika profesi dan memlika kepribadian ahlak yang mulia didasarkan 
+                           pada Iman dan Takwa.</li>
+                     </ol>
+                 </article>
+                 <article id="fasilitas" class="card">
+                    <h2>Fasilitas</h2>
+                    <p>Fasilitas merupakan salah satu hal terpenting untuk menunjang kenyaman bagi mahasiswa, dosen beserta staf yang Lainnya
+                        selama proses perkuliahan. </p>
+                       <section>
+                        <h3>Lab</h3>
+                        <img src="assets/image/lab.jpg"  class="featured-image" alt="Lab">
+                        <p>Setiap ruangan terdapat AC sehingga menjadikan kenyaman belajar bagi mahasiswa.
+                           Adapun beberapa lab yang disediakan di Universitas Teknologi Mataram, diantaranya :</p>
+                        <ul>
+                           <li >Lab. Pemrograman</li>
+                           <li>Lab. Jaringan</li>
+                           <li>Lab. Aplikasi</li>
+                           <li>Lab. Multimedia</li>
+                           <li>Lab. Bahasa Inggris </li>
+                        </ul>	
+                    </section>
+                    <section>
+                        <h3>Rusunawa</h3>
+                        <img src="assets/image/rusunawa.jpg" class="featured-image" alt="Rusunawa">
+                        <p>Rumah Susun Sewa atau sering disebut dengan <q>RUSUNAWA</q> adalah salah satu fasilitas yang disediakan oleh kampus khusus 
+                             untuk Mahasiswa. harga sewanya pun bersahabat, cukup dengan mengeluarkan Rp. 200.000/bulan
+                             Mahasiswa langsung bisa menempati kamar RUSUNAWA. Dan seperti terlihat pada fhoto diatas, 
+                             RUSUNAWA terdiri dari 4 lantai.</p>
+                    </section>
+                    <section>
+                         <h3>Perpustakaan</h3>
+                         <img src="assets/image/perpustakaan.jpg" class="featured-image" alt="Perpustakaan">
+                        <p>Dengan adanya perpustakaan diharapkan mampu menjadi refrensi bagi Mahasiswa/i untuk mengerjakan 
+                           tugas sehari-hari maupun dalam mengerjakan Karya Tugas Akhir dan Skripsi bagi semester tua.
+                           Perpustakaan ini pun cukup luas, bersih dan nyaman untuk belajar.</p>
+                    </section>
+                    <section>
+                     <h3>Musholla</h3>
+                     <img src="assets/image/IMG20191216071624.jpg" class="featured-image" alt="Musholla">
+                     <img src="assets/image/IMG20191216072120.jpg" class="featured-image" alt="">
+                      <p>Di Universitas Teknologi Mataram disediakan juga Musholla untuk melaksanakan kewajiban bagi Dosen 
+                          dan Mahasiswa/i yang muslim. Dan disediakan pula perlengkapan sholat seperti sajadah dan Mugnah untuk mahasiswi.</p>
+                </section>
+                </article>
+                <article id="tentang" class="card">
+                   <h2>Tentang</h2>
+                  <p>Universitas Teknologi Mataram yang disingkat dengan UTM adalah Universitas swasta di Kota 
+                     Mataram yang berdiri tanggal 29 Juli 2019. Universitas Teknologi Mataram berada dibawah Naungan Yayasan 
+                     Lembaga Pendidikan Darma Bakti. Universitas Teknologi Mataram merupakan gabungan dari Sekolah Tinggi Manajemen 
+                     Informatika Komputer Mataram (STMIK Mataram) dan Akademi Sekretari dan Manajemen Mataram (ASM Mataram).</p>
+                   <p>Izin penggabungan Sekolah Tinggi Manajemen Informatika Komputer Mataram dan Akademi Sekretari
+                     dan Manajemen Mataram menjadi Universitas Teknologi Mataram di Kota Mataram Provinsi Nusa Tenggara Barat yang diselenggarakan
+                     oleh Yayasan Lembaga Pendidikan Darma Bakti dikeluarkan oleh RISTEKDIKTI dengan Nomor Peraturan 660/KPT/I/2019, tanggal penetapan
+                     29 Juli 2019. Saat ini Universitas Teknologi Mataram pun dengan Motto <strong>TECHNO UNIVERSITY</strong> yang berati menciptakan lulusan yang tidak 
+                     hanya sebagai pencari kerja melainkan sebagai pencipta lapangan kerja khususnya dibidang Teknologi sesuai dengan revolusi industri 
+                     4.0 saat ini. </p>
+                  <p> Berikut adalah jurusan yang ada di Universitas Teknologi Mataram</p> 
+                  <ol>
+                     <li>S1 Hukum</li>
+                     <li>S1 Manajemen</li>
+                     <li>S1 Teknik Informatika</li>
+                     <li>S1 Sistem Informasi</li>
+                     <li>S1 Teknologi Informasi </li>
+                     <li>S1 Rekayasa Perangkat Lunak</li>
+                     <li>S1 Rekayasa Sistem Komputer</li>
+                     <li>D3 Manajemen Informatika</li>
+                     <li>D3 Komputerisasi Akuntansi</li>
+                     <li>D3 Teknik Komputer</li>
+                     <li>D3 Manajemen Administrasi</li>
+                     <li>D3 Sekretari</li>  
+                  </ol>
+                </article>
+             </div>
+             <aside>
+                <article class="profile card">
+                     <header>
+                         <h2></h2>
+                         <p></p>
+                         <figure>
+                            <img src="assets/image/utm.png">
+                            <figcaption><strong>TECHNO UNIVERSITY</strong></figcaption>
+                          </figure>
+                     </header>
+                     <section>
+                        <h3>Informasi Lainnya</h3>
+                        <table>
+                           <tr>
+                              <th>Negara</th>
+                              <td>Indonesia</td>
+                           </tr>
+                           <tr>
+                              <th>Alamat</th>
+                              <td>Jln. Universitas Teknologi Mataram, Kekalik Jaya Kec. Sekarbela, Kota Mataram - NTB</td>
+                           </tr>
+                           </tr>
+                              <tr>
+                              <th>Telepon</th>
+                              <td>037 0628418</td>
+                           </tr>
+                              <tr>
+                                 <th>facebook</th>
+                                 <td>Universitas Teknologi Mataram</td>
+                              </tr>
+                              <tr>
+                                 <th>Instagram</th>
+                                 <td>utm.official2019</td>
+                              <tr>
+                       </table>
+                     </section>
+                </article>
+            </aside>
+            <aside>
+               <article class="profile card">
+                    <header>
+                        <h2></h2>
+                        <p></p>
+                        <figure>
+                           <img src="assets/image/gue.jpg">
+                           <figcaption><strong></strong></figcaption>
+                         </figure>
+                    </header>
+                    <section>
+                       <h3>Biodata</h3>
+                       <table>
+                          <tr>
+                             <th>Nama</th>
+                             <td>Irwan Rosadi</td>
+                          </tr>
+                          <tr>
+                             <th>TTL</th>
+                             <td>Dasan Tinggir, 13-03-1998</td>
+                          </tr>
+                          </tr>
+                             <tr>
+                             <th>Agama</th>
+                             <td>Islam</td>
+                          </tr>
+                             <tr>
+                                <th>Jenis Kelamin</th>
+                                <td>Laki - laki</td>
+                             </tr>
+                             <tr>
+                                <th>Alamat</th>
+                                <td>Dasan Tinggir, Desa Pringgabaya Utara, Kec. Pringgabaya, Kab. Lombok Timur-NTB</td>
+                             <tr>
+                      </table>
+                    </section>
+               </article>
+           </aside>
+         </main>
+         <footer>
+            <p>Copyright &copy; 2020 UTM</p>
+        </footer>
+    </body>
+</html>
